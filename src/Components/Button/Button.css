@@ -1,0 +1,111 @@
+/* from wp portal */
+.button {
+    display: inline-block;
+    width: auto;
+    border: none;
+    appearance: none;
+    margin: initial;
+    box-sizing: border-box;
+    font-weight: normal;
+    text-align: center;
+    max-width: 100%;
+    font-family: var(--font-sans);
+    text-decoration: none;
+    border-radius: var(--control-radius);
+    transition: background 0.15s ease, box-shadow 0.15s ease, color 0.15s ease, fill 0.15s ease;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:focus {
+        outline-offset: 2px;
+        outline: 2px solid var(--color-control-bg-border-focus);
+    }
+}
+
+.button_with-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    &.button_size_l {
+        width: var(--control-button-size-l);
+        height: var(--control-button-size-l);
+    }
+    &.button_size_m {
+        width: var(--control-button-size-m);
+        height: var(--control-button-size-m);
+    }
+    &.button_size_s {
+        width: var(--control-button-size-s);
+        height: var(--control-button-size-s);
+    }
+    & svg {
+        display: block;
+    }
+}
+
+.button_width_full {
+    width: 100%;
+}
+
+.button_view_clear {
+    background-color: var(--color-control-bg-clear);
+    color: var(--color-control-typo-action);
+    transition: background-color .15s;
+    &:hover {
+        background-color: var(--color-control-bg-clear-hover);
+    }
+    &:active {
+        background-color: var(--color-control-bg-clear-press);
+    }
+}
+
+.button_view_primary {
+    background-color: var(--color-control-bg-action);
+    color: var(--color-control-typo-affect);
+    transition: background-color .15s;
+    &:hover {
+        background-color: var(--color-control-bg-action-hover);
+    }
+    &:active {
+        background-color: var(--color-control-bg-action-press);
+    }
+}
+
+.button_view_secondary {
+    background-color: var(--color-control-bg-default);
+    color: var(--color-control-typo-primary);
+    transition: background-color .15s;
+    &:hover {
+        background-color: var(--color-control-bg-default-hover);
+    }
+    &:active {
+        background-color: var(--color-control-bg-default-press);
+    }
+}
+
+.button_size_l {
+    font-size: var(--control-size-l);
+    line-height: var(--control-button-size-l);
+    height: var(--control-button-size-l);
+    padding: 0 var(--control-space-l);
+}
+
+.button_size_m {
+    font-size: var(--control-size-m);
+    line-height: var(--control-button-size-m);
+    height: var(--control-button-size-m);
+    padding: 0 var(--control-space-m);
+}
+
+.button_size_s {
+    font-size: var(--control-size-s);
+    line-height: var(--control-button-size-s);
+    height: var(--control-button-size-s);
+    padding: 0 var(--control-space-s);
+}
+
+.button_form_round {
+    border-radius: 999em;
+}

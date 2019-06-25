@@ -1,33 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme_control_whitepaper-default {
+  --color-control-bg-default: rgb(240, 240, 240);
+  --color-control-bg-default-hover: rgba(0, 0, 0, 0.15);
+  --color-control-bg-default-press: rgba(0, 0, 0, 0.2);
+  --color-control-bg-default-affect: rgb(255, 255, 255);
+  --color-control-bg-border-default: rgb(240, 240, 240);
+  --color-control-bg-border-default-hover: rgba(0, 0, 0, 0.25);
+  --color-control-bg-border-default-press: rgba(0, 0, 0, 0.35);
+  --color-control-bg-border-focus: rgba(0, 123, 255, 0.5);
+  --color-control-typo-primary: #000;
+  --color-control-typo-secondary: rgba(0, 0, 0, 0.6);
+  --color-control-typo-ghost: rgba(0, 0, 0, 0.35);
+  --color-control-typo-placeholder: rgb(153, 153, 153);
+  --color-control-typo-affect: rgb(255, 255, 255);
+  --color-control-typo-action: #0070f0;
+  --color-control-bg-action: rgb(0, 123, 255);
+  --color-control-bg-action-hover: rgb(26, 136, 255);
+  --color-control-bg-action-press: rgb(0, 106, 219);
+  --color-control-bg-action-progress: rgba(0, 86, 179, 0.3);
+  --color-control-bg-action-progressing: rgba(0, 86, 179, 0.3);
+  --color-control-bg-clear: rgba(0, 0, 0, 0);
+  --color-control-bg-clear-hover: rgba(0, 0, 0, 0.07);
+  --color-control-bg-clear-press: rgba(0, 0, 0, 0.12);
+  --color-control-bg-check: rgb(0, 113, 235);
+  --color-control-bg-check-press: rgb(51, 150, 255);
+  --color-control-bg-check-hover: rgb(51, 150, 255);
+  --color-control-bg-border-check: rgb(0, 113, 235);
+  --color-control-bg-border-check-press: rgba(0, 0, 0, 0.35);
+  --color-control-bg-border-check-hover: rgb(0, 81, 168);
+  --color-control-link-default: #0070f0;
+  --color-control-bg-link-default: #0070f0;
+  --color-control-bg-border-link-default: #0070f0;
+  --color-control-bg-disable: rgb(230, 230, 230);
+  --color-control-bg-disable-check: rgb(224, 224, 224);
+  --color-control-bg-border-disable: rgb(153, 153, 153);
+  --color-control-typo-disable: rgb(153, 153, 153);
+  --color-control-typo-placeholder-disable: rgb(128, 128, 128);
+  --control-radius: 4px;
+  --control-border-width: 2px;
+  --control-button-size-l: var(--space-4xl);
+  --control-button-size-m: var(--space-3xl);
+  --control-button-size-s: var(--space-2xl);
+  --control-space-xl: var(--space-xl);
+  --control-space-l: var(--space-l);
+  --control-space-m: var(--space-m);
+  --control-space-s: var(--space-s);
+  --control-space-xs: var(--space-s);
+  --control-size-l: var(--size-typo-l);
+  --control-size-m: var(--size-typo-m);
+  --control-size-s: var(--size-typo-s);
 }

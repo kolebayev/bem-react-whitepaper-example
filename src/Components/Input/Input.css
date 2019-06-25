@@ -1,0 +1,43 @@
+/* from wp portal */
+.input {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	background: var(--color-control-input-default);
+	border: 2px solid var(--color-control-bg-border-default);
+	border-radius: var(--control-radius);
+	font-family: var(--font-sans);
+	font-weight: normal;
+	color: var(--color-control-typo-primary);
+
+	&::placeholder {
+		color: var(--color-control-typo-ghost);
+	}
+
+	&:focus {
+		outline: none;
+		border-color: var(--color-control-bg-border-focus);
+	}
+}
+
+.input_width_full {
+	width: 100%;
+}
+
+.input_size_s {
+	font-size: var(--control-size-s);
+	height: var(--control-button-size-s);
+	padding: 0 var(--control-space-s);
+}
+
+.input_size_m {
+	font-size: var(--control-size-m);
+	height: var(--control-button-size-m);
+	padding: 0 var(--control-space-s);
+}
+
+.input_size_l {
+	font-size: var(--control-size-l);
+	height: var(--control-button-size-l);
+	padding: 0 var(--control-space-m);
+}
