@@ -9,7 +9,7 @@ class Input extends Component {
     render() {
         return (
             <input
-                className={cnInput(null, [cnInput({ width: 'full', size: 'l' })])}
+                className={`${cnInput(null, [cnInput({ width: 'full', size: 'l' })])} ${this.props.inputDecorator}` }
                 type="text"
                 placeholder={this.props.placeholder}
                 value={this.props.value}

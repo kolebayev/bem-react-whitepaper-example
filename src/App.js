@@ -16,7 +16,7 @@ function App() {
       <Layout>
         {/* <Input placeholder="username" />
         <Button text="username" addClassName="123" /> */}
-        <SignInForm loginPlaceholder="username" passwordPlaceholder="password" buttonText="Sign In" />
+        <SignInForm loginPlaceholder="Username" passwordPlaceholder="Password" buttonText="Sign In" />
       </Layout>
     </div>
   );
