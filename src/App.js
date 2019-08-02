@@ -14,8 +14,6 @@ function App() {
   return (
     <div className={cnTheme({ size: 'default', space: 'default', breakpoint: 'default', color: 'whitepaper-default', control: 'whitepaper-default' })}>
       <Layout>
-        {/* <Input placeholder="username" />
-        <Button text="username" addClassName="123" /> */}
         <SignInForm loginPlaceholder="Username" passwordPlaceholder="Password" buttonText="Sign In" />
       </Layout>
     </div>
